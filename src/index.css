@@ -64,6 +64,7 @@ input[type="submit"]:hover {
 .error {
   color: red;
   /* font-size: 12px; */
+  max-width: 350px;
 }
 
 .success {
