@@ -28,10 +28,11 @@ input[type="text"],
 input[type="password"] {
   height: 25px;
   border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
 }
 
 input[type="submit"] {
-  margin-top: 20px;
+  margin-top: 10px;
   cursor: pointer;
   font-size: 15px;
   background: #01d28e;
@@ -51,6 +52,7 @@ input[type="submit"]:hover {
 }
 
 .login-form {
+  width: 250px;
   background-color: white;
   padding: 2rem;
   border-radius: 5px;
@@ -80,4 +82,5 @@ input[type="submit"]:hover {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  margin-bottom: 5px;
 }
